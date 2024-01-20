@@ -1,0 +1,36 @@
+:root {
+  --primary-color: #4caf50;
+  --accent-color: #fdd835;
+  --background-color: #121212;
+  --text-color: #ffffff;
+  --subtext-color: #aaaaaa;
+  --border-color: #333;
+  --success-color: #66bb6a;
+  --error-color: #ef5350;
+}
+
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--accent-color);
+}

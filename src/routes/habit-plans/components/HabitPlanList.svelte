@@ -18,3 +18,26 @@
 		{/each}
 	</ul>
 </div>
+
+<style>
+	div {
+		padding: 20px;
+		background-color: var(--background-color);
+		color: var(--text-color);
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	li {
+		border-bottom: 1px solid var(--border-color);
+		padding: 15px 0;
+	}
+
+	a {
+		text-transform: capitalize;
+	}
+</style>

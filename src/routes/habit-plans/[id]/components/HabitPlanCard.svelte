@@ -14,8 +14,6 @@
 
 <style>
 	h2 {
-		font-size: larger;
-		font-weight: 600;
 		text-transform: capitalize;
 	}
 </style>
