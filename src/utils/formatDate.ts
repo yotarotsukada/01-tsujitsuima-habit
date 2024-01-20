@@ -1,8 +1,5 @@
 export const formatDate = (date: Date) =>
-	date
-		.toLocaleDateString()
-		.slice(0, 10)
-		.split('/')
+	[date.getFullYear(), date.getMonth() + 1, date.getDate()]
+		.map((n) => n.toString())
 		.map((s) => s.padStart(2, '0'))
-		.toSorted((a, b) => b.length - a.length)
 		.join('-');
